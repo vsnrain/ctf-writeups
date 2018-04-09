@@ -8,3 +8,5 @@
  * [mario_in_maze [PPC]](2018/xiomara/mario_in_maze)
 * [**Insomni'hack Finals 2018**](2018/insomnihack-finals)
  * [be_back [RE/iOS]](2018/insomnihack-finals/be_back)
+* [**INS'hAck 2018**](2018/inshack)
+ * [visual-hashing-hard [PPC/FORENSIC]](2018/inshack/visual-hashing-hard)
