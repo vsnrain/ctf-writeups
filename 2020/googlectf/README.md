@@ -160,7 +160,7 @@ Now lets look at `ő$1.class`.
 At first sight it may look complex, but it is actually extremely simple once you remove all try/catch/goto trash.  
 Lets analyse it block by block.
 
-First block of code is not much useful, it just constructs a string that is not user or referenced anywhere else.
+First block of code is not much useful, it just constructs a string that is not used or referenced anywhere else.  
 `Apparently this is not the flag. What's going on?`  
 
 ```java
@@ -226,7 +226,7 @@ if (this.this$0.ő >= this.this$0.ő.length) {
 
 ```
 
-So now, we need to find 4 char input that after operations in block 3 above, will be equal to each number in `long[] this.class`. We can try reverseing math, but bruteforcing each 4 char block will be much faster and easier.  
+So now, we need to find all 4 char inputs that after operations in block 3 above, will be equal to each number in `long[] this.class`. We can try reverseing math, but bruteforcing each 4 char block will be much faster and easier.  
 
 The solution is listed below:
 ```java
